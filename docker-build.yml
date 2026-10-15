@@ -1,6 +1,6 @@
 ---
 - name: Build Docker image
-  hosts: ubuntu_nodes
+  hosts: all
   become: yes
 
   tasks:
